@@ -1,1 +1,4 @@
 # Of-Mice-And-Messages
+
+This project aims to produce a rich and unique eye-tracking game for individuals affected by severely disabling conditions such as, ALS and spinal cord injuries. People with severely disabling conditions often retain good control of their eyes however, there is a lack of applications and games that are designed for and fully support the use of eye-tracking. Using Unity, we created ‘Of Mice and Messages’ - a fun and unique pipe based puzzle game where users read messages in an overarching storyline by moving and rotating pipes to direct the flow of water from a starting mail pipe to a finishing mail pipe. The game was designed for use with an eye tracker from the outset, with support for dwell-time based activation. The game also follows best practices for eye-tracking interaction design.
+
