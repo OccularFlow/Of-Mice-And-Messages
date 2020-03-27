@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<levels>
+<level name="0">
+    <message>This is Message 1</message>
+    <message2>This is Message 2</message2>
+  </level>
+  <level name="1">
+    <message>Granny,
+            I didn’t see you at today’s harvest feast…we even had the red sprinkle berries you love…it’s not like you to miss a feast. Please reply soon.
+            Love,
+            Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="2">
+    <message>Granny,
+I’m going to find you. No one has seen you for days - they all say that you’ve just wandered away and that you’ll eventually find your way back to the burrow. That’s a lie -  no matter what anyone says - you can’t have just disappeared. 
+You wouldn’t have left me and Lilly alone.
+Missing you,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="3">
+    <message>Mimi.
+Enough is enough. You need to stop acting like a child with your ‘investigation’. You even asked Elder Tom whether he had anything to do with Granny Gerda disappearing - how disrespectful! 
+No wonder Granny Gerda decided to leave you and your sister for a fresh start in Indura - the sooner you accept that - the better.
+Aunt Bea.
+</message>
+    <message2>None</message2>
+  </level>
+  <level name="4">
+    <message>Lilly,
+I’m going to leave Mausenstadt tonight and head to Indura to find Granny Gerda. I can’t believe that Aunt Bea took you away…just because I’m trying to find Granny. The Elders have put the entire town under lockdown, but they won’t say what they're so afraid of. 
+I went to Granny Gerda’s burrow today - all her things are still there but, I found strange track marks all over her floor and there are not paw prints leading out of the room. Something isn’t right and I need find out why. 
+I’m going to sneak past the legionaries at the gates tonight - I don’t know what will happen if I get caught.
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="5">
+    <message>Mimi,
+You need to be careful. I miss Granny Gerda but, I can’t lose you too.
+I heard there was a struggle at the gates last night - did you get out safe? Aunt Bea and the rest of the Elders have started enforcing a curfews but, no one knows why they’re so scared. 
+You need to come back safe. I don’t want to be alone.
+Love,
+Lilly</message>
+    <message2>None</message2>
+  </level>
+  <level name="6">
+    <message>Lilly,
+I got out - but, just by the fur of my tail. I tried to sneak past the legionaries like I planned, but Elder Tom saw me and raised the alarm. I had to dodge two legionaries, leap over the gate and swim through the Wide River. I’m paddling towards Indura now - hopefully it’ll have the answers to all of our questions.
+I’ll be fine - you should be careful though, something must have spooked the Elders. 
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="7">
+    <message>Lilly,
+I finally reached Indura! It’s so different to Mausenstadt - there’s so many sewer dwellers here that the burrows are stacked up on top of each other with a can attached to a pulley to get to the higher floors. It’s all so chaotic, with a million different stalls selling everything from iron pots to protection charms - I even walked past an alligator selling paw polish for an outrageous price.</message>
+    <message2>I don’t have enough ingots to stay at an inn tonight, but I found a disused burrow next to one of the drainage pipes. It’ll do for now and tomorrow I’ll head out and start asking questions about Granny Gerda.
+I haven’t heard back from you in a while - are you alright in Mausenstadt?
+Love,
+Mimi</message2>
+  </level>
+  <level name="8">
+    <message>Lilly,
+I went out to the Sewer Defence Station today to see if they knew anything about Granny Gerda or where she might have gone. 
+It was a dingy building that smelt like old rat droppings and the badger at the front desk was snoring. I rang the bell and he startled awake, spit flying everywhere.
+“Wha..what do you want?” He asked as he rubbed his eye with his paw. 
+“I’m looking for my Granny, she’s gone missing. Her name is Gerda Vatn, she’s…”</message>
+    <message2>“I can stop you right there, Miss. We don’t deal with missing sewer dwellers in Indura…we have such a high workload as it is.”
+“But…” I tried to squawk, as he pushed me towards the door. “But…you were sleeping!” 
+His teeth glinted in response as he shoved me outside.
+I don’t know why the people meant to be helping are ignoring me, but I’m not going to give up - even if I have to ask every stall owner in the city!
+Love,
+Mimi</message2>
+  </level>
+  <level name="9">
+    <message>Lilly,
+Lilly…I’m getting worried for you. I haven’t heard back from you in days.
+I started going stall to stall, through the throngs of market goers, with my picture of Granny, but no one could be bothered to spare me a second. I was tired, my feet hurt and dust covered me from head to paw, I saw the last stall on Market Street. It was a run down, corrugated tin shack with a sign advertising healing potions. The door quivered as I knocked on it and as it opened I came face to face with the oldest weasel I have ever seen. 
+“Hello?” She whispered as her beady eyes looked down at my dishevelled fur.
+“Uh…hi…my name is Mimi Galdur and I was just wondering if you’ve seen my Granny? She went missing a week ago.” I stammered as I lifted up the photo.“Hmm…I don’t think I’ve seen your Granny…no…but, a sweet little mouse like you shouldn’t be out in Indura by herself. Why don’t you come in and I’ll get some tea brewing and we can chat about it?”.
+</message>
+    <message2>
+I hesitated, weasels were not to be trusted. That’s what all the elders said, but then again the elders couldn’t be trusted. I walked inside. It was then I found my first true friend in Indura,  Jo sat me down, made the most amazing cup of tea I have ever had and listened to me calmly as I told my story. 
+“She took my paw with hers and smiled as she said “You’ve had a rough couple of days now haven’t you cub. Why don’t you try sleeping in my spare room for a night - you’ll feel better in the morning”.
+I was bone weary tired - so I agreed. 
+Good Night,
+Mimi</message2>
+  </level>
+  <level name="10">
+    <message>Lilly,
+Lilly…I’m getting worried for you. I haven’t heard back from you in days.
+Jo, the weasel, is wonderful. She sat me down after I woke up and said “You’ve had a rough couple of days now haven’t you cub. I agree with you, your Granny was taken but, you can’t find her alone. You need help.”
+“And I think I know just the person who could- he even owes me a favour!”. She wrote down a name and passed the scrap of paper to me. 
+“Now if you are ever in Indura again and need a friend, just ask for me.” She smiled warmly as I got up.
+“Thank you, thank you so much. I’ll never be able to repay you.” I said as I walked towards the door.
+The name she gave me was Marcus Longfoot. I’ll head out to track him down. 
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="11">
+    <message>Mimi,
+I’m sorry I wasn’t able to send a message to you earlier. The elders have become incredibly paranoid and well…they’ve made life difficult for everyone. The legionaries are arresting anyone the elders accuse of working against them and limited everyone’s movements. 
+I haven’t seen Old Man Teddy in days. The elders keep saying that he’s in his burrow sleeping off a cold - but, they won’t let me see him.
+I don’t know what’s happened to our home. Everyone is scared and only the elders seem to know what we should so be scared of.</message>
+    <message2>Aunt Bea’s been stopping me from getting to the mail pipes and locking away your messages. I only found them after breaking into her study yesterday. I’ll need to sneak past her again to send this message.
+Be careful Mimi, Indura seems like a dangerous place. Don’t trust anyone.
+Love,
+Lilly</message2>
+  </level>
+  <level name="12">
+    <message>Lilly,
+Be careful! I don’t want you to get hurt. I can’t believe what’s happened to Mausenstadt - but if it gets worse - you need to run.
+I’ve managed to locate Marcus Longfoot, apparently he’s at the Himura Tavern - a popular tavern for disreputable individuals in what is the shady part of an already shady city.
+I’ll let you know how my meeting with him goes.
+Love,
+Mimi </message>
+    <message2>None</message2>
+  </level>
+  <level name="13">
+    <message>Lilly,
+I went to the Himura Tavern - which was just as shady as people had told me. It was a beautiful old-sewer style building with rickety chairs and crooked patrons, I went up to the bar and asked for Marcus. The bar-keep, an old mouse with thinning fur, sniffed at me and pointed at the far corner of the room where a young grey squirrel sat slumped over a drink.
+I walked over and sat opposite him, he didn’t stir and so I poked him. He jolted up and growled. 
+I took a deep breath and introduced myself, showed him my photo of Granny and told him that Jo said that he could help me.
+“I don’t care” he said flatly and slumped over his drink again.
+</message>
+    <message2>I’m not particularly proud of the next part, but in my defence I was too tired and frustrated and worried about Granny to think about politeness. I poked him again and shouted “My Granny is missing! There is no one else that can help, no one else who cares. The only clue I have are some strange track marks - so you WILL help me!”
+He froze, “Strange track marks you say…like a viper’s’?” At my frantic nodding he continued, “You said your name is Mimi right? I think I may be able to help you…meet me at the Knihovna library at dawn.”
+Love,
+Mimi</message2>
+  </level>
+  <level name="14">
+    <message>Lilly,
+I went to the Knihovna library at dawn, just like Marcus said. It was surprisingly bustling, with scholars poring over scrolls and writing neat notes in the margins of their papers.
+Marcus was hidden in the corner again, but this time slumped over a book. I don’t know whether he had slept at all last night. I gently nudged him awake and he jerked, his glasses falling askew.
+“Oh it’s you.” He humphed, sliding along the bench so I could sit down.
+“I’ve been doing some research. The thing that took your Grandmother is one of the Shadows. A group of vipers so vicious…so deadly…that is is beyond belief why people make bargains with them”.
+</message>
+    <message2>“I’m sorry - bargains?”
+“Your Granny isn’t the only one the shadows have taken.” Marcus rubbed his eyes and sighed. “My village was destroyed by them.”
+“We were a small settlement - out by the Western Tunnel. One day village chief announced that he had arranged for a magnificent deal. One that would make us all wealthy beyond imagine. All we had to do was to swear allegiance to the Shadows.”
+
+I'm running out of space Lilly, I'll have to tell you the rest of the story in the next message.
+Love,
+Mimi</message2>
+  </level>
+  <level name="15">
+    <message>I blinked back tears, “I’m so sorry, I didn’t”.
+“Enough of that.” He said gruffly, “Now you know, we can…”.
+The library doors smashed open and SDF officers stormed in. “Mimi Galdur - you are under arrest for facilitating illegal activities!”
+My mouth opened wide, “wha…”, when Marcus whispered “The SDF work for the Shadows”I turned around, pulling Marcus into one of the sewer tunnels I had explored in my days wandering Indura.
+I’m hiding in one of the disused storm drains and won’t be able to contact you in a while. Be careful Lilly, if what Marcus says is true…then you are in so much danger.
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="16">
+    <message>Mimi,
+I’m safe. Or at least as safe as anyone is. 
+The elders must have made a deal with the shadows and broken it. Five more mice have already disappeared and the elders have put Mausenstadt under martial law. 
+I’m going to find out more - even if I have to break into the Hall of Elders to do it.
+Love,
+Lilly</message>
+    <message2>None</message2>
+  </level>
+  <level name="17">
+    <message>Mimi,
+You know how when we were little we promised that we’d never use the secret brew we invented to give the school bully fleas? Well…I may have slightly broken that promise…but, only a little bit…if you count dosing all the legionaries in the Hall of Elders as little…
+After sneaking around the itchy legionaries, I managed to find the Archive Room. After a good bit of hunting and maybe some falling off shelves (don’t give me that look Mimi) I found the secret the Elders have been hiding from us - it’s a contract signed by the Elders…with the Shadows. I’ve sent you a copy of the contract in another bottle, hidden between a fur shampoo advert.
+Love,
+Lilly</message>
+    <message2>None</message2>
+  </level>
+  <level name="18">
+    <message>Get your fur glistening with Furlicous Delights - a three in one fur tonic to make your fur unmissable!
+A Binding Contract between The Elders of Mausenstadt and their Eminences The Shadows.
+We, the Elders of Mausenstadt solemnly swear to give our fealty to their Eminences The Shadows. We will provide them with the elixir, under pain of death if we do not. In return, their Eminences The Shadows have agreed to aid us in expanding the territory of Mausenstadt.
+You might have seen other fur shampoos but, Furlicous Delights is the best! Get now from all participating stores. 
+</message>
+    <message2>None</message2>
+  </level>
+  <level name="19">
+    <message>Lilly,
+You need to be careful! I know that getting into the Hall of Elders isn’t as easy as you made it out to be. Don’t lie to me.
+The SDF are still looking for us, but Marcus has been able to track down an approximate location for the Shadows’ base. We’re heading there now to see if we can save Granny and the others and put an end to this, once and for all.
+Love, 
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="20">
+    <message>Mimi,
+The legionaries found me in the Archives Room. I managed to slip past them and bolt to the burrow but, they're coming.
+Be safe.
+Lilly</message>
+    <message2>None</message2>
+  </level>
+  <level name="21">
+    <message>Mimi,
+I got out but, just by the tip of my whiskers. The legionaries stormed into our burrow and dragged me to one of the cells beneath the Hall of Elders. Aunt Bea came in and started lecturing me for being a disobedient child that sticks her nose in business that doesn’t belong to her. The she started asking me about where you were and what I knew about the disappearances. I played dumb, but she seemed unconvinced. 
+Finally she left me alone in the dank cell and I grinned. The legionaries, for all their brawn and intimidation tactics, didn’t think of searching me when they found me in our burrow. If they had, they would have found our Great Aunt May’s vintage tweezers in my pocket.
+</message>
+    <message2>Breaking the tweezers apart, I inserted the two parts into the lock and twisted, before crawling up one of the ventilation pipes out of the Hall of Elders.
+I’m going to reveal the Elders for what they really are - I’m going to tell everyone the truth about the deal they made and how they are responsible for the disappearances.
+Love,
+Lilly</message2>
+  </level>
+  <level name="22">
+    <message>Lilly,
+Are you okay? Did they hurt you? Are you safe? Don’t take any risks - I can’t lose you.
+We’ve managed to find the Shadows’ base, it’s a tall, imposing stronghold beyond the Great River Pipe, with regular mercenary patrols. There’s a settlement just outside, but the residents act like a rabbit caught in a narrow pipe when we try to talk to them about their neighbours.
+One of them, a tiny vole by the name of Sofia is different. She says that she might be able to help us, but that we have to meet her under the cover of darkness - next to the river. 
+I don’t know if we can trust her, but this may be our only chance.
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="23">
+    <message>Mimi,
+I sent messages to Fenris, Nigel, Cookie and the others we can trust. We met in one of the store rooms underneath Nigel’s bakery and I told everyone about what we had found out about the Shadows and the disappearances.
+At first no one believed me, “Why would the elders lie?” Cookie said, as others in the room nodded and even threatened to tell the legionaries.
+It all changed when I brought out the contract and told them about Marcus’ story - it all made sense - why the elders were acting so paranoid, why people were disappearing.
+</message>
+    <message2>We’ve started to organise a resistance, we’re going to send out pamphlets to the citizens of Mausenstadt with the truth and blockade the Hall of Elders.
+We won’t let them cover up any more disappearances - we deserve the truth.
+Love,
+Lilly</message2>
+  </level>
+  <level name="24">
+    <message>Lilly,
+We met with Sofia by the river last night, she was accompanied by two badgers named Leo and Ava. The meeting started off tense, with both groups worried that the other could not be trusted, but after we explained our stories we discovered that we had mutual motivations.
+We started planning an offensive on the base. Apparently the Shadows keep their captives in an underground vault to act as bargaining chips. Thankfully, Leo and Ava will be able to dig a tunnel into the base - but, we’ll still have to get past the guards to get to the underground vault.
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="25">
+    <message>Mimi,
+We’re blockading the Hall of Elders, most of the citizens are on our side. Too many have gone missing for them to believe the elders. But, the legionaries are being sent out in force to dispel the crowds - the elders are holed up on the top floor but, our message is clear - we won’t give up.
+Love,
+Lilly</message>
+    <message2>None</message2>
+  </level>
+  <level name="26">
+    <message>Lilly,
+We did it. I can’t believe it - but we actually did it. Leo and Ava managed to dig us past the outer perimeter of the Shadows’ base and we managed to sneak past the patrols.
+As we were moving towards the underground bunker, we heard a hiss as the largest viper I’ve ever seen came slithering across the corner.
+“Hmm…unexpected visitors….how tasty….” He hissed, his tongue flickering.
+That was when little, tiny Sofia jumped into action with her staff. She jumped on the viper, dodging its fangs and knocked it unconscious.
+</message>
+    <message2>With our mouths agape - we followed her into the hallway where we encountered a couple more guards and vipers. I finally got to use some of the mouse-defence training Granny always made us learn!
+As we opened the vault, I saw about twenty captives- some from Mausenstadt and others from nearby settlements but, I couldn’t see Granny. I started calling her name and then I saw her in the corner, slightly tired and weary but, alive!
+We managed to escape the base and get to one of the pipes east of the river. We have Granny - she’s safe!
+Love,
+Mimi</message2>
+  </level>
+  <level name="27">
+    <message>Lilly,
+We’re on our way back to Mausenstadt. I don’t think the Shadows are after us - we managed to humiliate them by stealing their only leverage and proving that you can stand up to ‘the Eminences’. 
+We’ve made sure that they can never hurt anyone again.
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="28">
+    <message>Mimi,
+Welcome to New Mausenstadt! After a couple of clashes with the legionaries the Elders realised that we wouldn’t give up and stood down as the leaders of Mausenstadt and dissolved the legionaries. We’re electing a new set of leaders as I write!
+Aunt Bea won’t talk to me anymore, she says that I betrayed her and the rest of the elders, but she betrayed us. 
+I’m not going to let her ruin this moment though - we both did it!
+Love,
+Lilly</message>
+    <message2>None</message2>
+  </level>
+  <level name="29">
+    <message>Granny,
+I was wondering if you wanted to go to the harvest feast with me and Lilly tomorrow? I know there’s not going to be any sprinkle berries but, we’d love to spend time with you.
+Love,
+Mimi</message>
+    <message2>None</message2>
+  </level>
+  <level name="30">
+    <message>My dearest Mimi and Lilly,
+Of course I’m going to the harvest feast! I am so proud of you both, you have achieved what others claimed was impossible and saved the lives of so many people, including my own. 
+I love you so much.
+Granny</message>
+    <message2>None</message2>
+  </level>
+</levels>

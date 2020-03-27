@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<levels>
+  <level name="1">
+    <complete>No</complete>
+    <stars>0</stars>
+    <timeTaken>0:00</timeTaken>
+    <numberOfIPipes>8</numberOfIPipes>
+    <numberOfLPipes>8</numberOfLPipes>
+    <targetPipes>
+      <targetPipe>
+        <targetXPosition>18</targetXPosition>
+        <targetYPosition>-6.3</targetYPosition>
+        <targetRotation>0</targetRotation>
+      </targetPipe>
+    </targetPipes>
+    <obstacles>
+      <obstacle>
+        <gridBlockID>10</gridBlockID>
+        <obstacleRotation>45</obstacleRotation>
+      </obstacle>
+      <obstacle>
+        <gridBlockID>18</gridBlockID>
+        <obstacleRotation>45</obstacleRotation>
+      </obstacle>
+    </obstacles>
+    <funnels>
+      <funnel>
+        <gridBlockID>12</gridBlockID>
+        <funnelRotation>0</funnelRotation>
+      </funnel>
+    </funnels>
+    <obsIPipes>
+    </obsIPipes>
+    <obsLPipes>
+    </obsLPipes>
+    <threeStarTime>5</threeStarTime>
+    <twoStarTime>10</twoStarTime>
+    <message>A hidden level!</message>
+  </level>
+  <level name="2">
+    <complete>Yes</complete>
+    <stars>3</stars>
+    <timeTaken>3:45</timeTaken>
+    <numberOfIPipes>8</numberOfIPipes>
+    <numberOfLPipes>8</numberOfLPipes>
+    <targetPipes>
+      <targetPipe>
+        <targetXPosition>18</targetXPosition>
+        <targetYPosition>-6.3</targetYPosition>
+        <targetRotation>-180</targetRotation>
+      </targetPipe>
+    </targetPipes>
+    <obstacles>
+      <obstacle>
+        <gridBlockID>10</gridBlockID>
+        <obstacleRotation>45</obstacleRotation>
+      </obstacle>
+      <obstacle>
+        <gridBlockID>18</gridBlockID>
+        <obstacleRotation>45</obstacleRotation>
+      </obstacle>
+    </obstacles>
+    <funnels>
+    </funnels>
+    <obsIPipes>
+    </obsIPipes>
+    <obsLPipes>
+    </obsLPipes>
+    <threeStarTime>5</threeStarTime>
+    <twoStarTime>10</twoStarTime>
+    <message>A second hidden level!</message>
+  </level>
+</levels>

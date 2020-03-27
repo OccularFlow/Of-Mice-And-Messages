@@ -1,0 +1,16 @@
+{
+    "name": "Scripts",
+    "references": [
+        "GUID:dd4c7f2462d2b60459bfce28dbbb5ee2",
+        "GUID:c36a4d663fd229e43996bc6ff57d85f8",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
