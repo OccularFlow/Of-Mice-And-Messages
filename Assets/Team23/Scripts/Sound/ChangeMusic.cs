@@ -6,6 +6,7 @@ public class ChangeMusic : Button
 {
     [SerializeField] private Sprite normalSprite;
     [SerializeField] private Sprite selectedSprite;
+    [SerializeField] private BackgroundMusicToggle musicToggle;
     private BackgroundMusic bgMusic;
 
     public override void OnMouseDown()
@@ -13,6 +14,7 @@ public class ChangeMusic : Button
         bgMusic = FindObjectOfType<BackgroundMusic>();
         spriteRenderer.sprite = selectedSprite;
         Invoke("flashes", 0.3f);
+        musicToggle.musicChanged();
         bgMusic.change_music();
     }
 

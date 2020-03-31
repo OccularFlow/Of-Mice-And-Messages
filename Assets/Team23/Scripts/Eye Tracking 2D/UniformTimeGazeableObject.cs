@@ -26,10 +26,13 @@ public class UniformTimeGazeableObject : MonoBehaviour {
         if (!TobiiAPI.IsConnected) {
             enabled = false;
         }
+        mainCamera = Camera.main;
     }
 
     void Start() {
-        StartCoroutine("checkForGaze");
+        if (enabled) {
+            StartCoroutine("checkForGaze");
+        }
     }
 
     float getGazeTime() {

@@ -12,6 +12,7 @@ public class PageChangerMessage : Button
     private bool onFirstPage = true;
 
     public override void OnMouseDown() {
+        soundManager.playSound("button");
         onFirstPage = !onFirstPage;
         if (onFirstPage) {
             spriteRenderer.sprite = previousPageSelected;

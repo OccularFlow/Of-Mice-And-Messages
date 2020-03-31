@@ -30,6 +30,11 @@ public class BackgroundMusicToggle : PauseMenuButton
 		updateSprite();
 	}
 
+	public void musicChanged() {
+		musicOn = true;
+		updateSprite();
+	}
+
 	private void updateSprite()
 	{
 		spriteRenderer.sprite = musicOn ? ONSprite : OFFSprite;

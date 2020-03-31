@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -65,10 +66,10 @@ public class GameManager : MonoBehaviour
     }
 
     public void levelCompleted() {
-        Invoke ("finishLevel", 0.5f);
+        Invoke("finishLevel", 0.5f);
     }
 
-    private void finishLevel() {
+    void finishLevel() {
         soundManager.waterRun(false);
         String starsAchieved = levelTimer.numberOfStarsAcheived().ToString();
         float timeTaken = levelTimer.currentTimer();
@@ -89,6 +90,29 @@ public class GameManager : MonoBehaviour
             string timeString = (minutes + ":" + seconds);
             XMLHandler.WriteGameCompletion(currentLevelName,stars,timeString,false);
         }
+    }
+
+    void OnEnable() {
+        if (isWaterRunning) {
+            soundManager.waterRun(true);
+        }
+    }
+
+    public void pause() {
+        soundManager.waterRun(false);
+        soundManager.playSound("button");
+
+        // Setting timeScale to 0 freezes all mechanics in unity and Update methods in Monobehaviour scripts
+        Time.timeScale = 0;
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
+        // deactivate all objects in the game other than water particles so that they retain their velocity
+        foreach (GameObject gameObject in currentScene.GetRootGameObjects()) {
+            if (gameObject.tag != "Water" && gameObject.tag != "message bottle") {
+                gameObject.SetActive(false);
+            }
+        }
+
     }
     
 }

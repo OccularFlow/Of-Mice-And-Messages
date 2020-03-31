@@ -18,6 +18,7 @@ public class StartTutorial : Button
     }
     public override void OnMouseDown()
     {
+        soundManager.playSound("button");
         spriteRenderer.sprite = selectedSprite;
         Invoke("flashes", 0.1f);
     }

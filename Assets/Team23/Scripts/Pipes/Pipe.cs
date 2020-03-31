@@ -18,6 +18,7 @@ public abstract class Pipe : MonoBehaviour, IGazeableObject
     protected bool isFromDock = true;
     private int drops;
     protected int rotationCounter = 0;
+    bool droppingBottle = false;
     public int Rotation
     {
         get {return (rotationCounter * -90);}
@@ -73,7 +74,9 @@ public abstract class Pipe : MonoBehaviour, IGazeableObject
     {
         if (waterDrop.tag == "message bottle") {
             waterDrop.SetActive(false);
-            StartCoroutine("releaseMessageBottle");
+            // droppingBottle = true;
+            Invoke("releaseMessageBottle", 0.2f);
+            drops++;
             return false;
         }
         Vector2 incomingVel = waterDrop.GetComponent<Rigidbody2D>().velocity;
@@ -88,22 +91,15 @@ public abstract class Pipe : MonoBehaviour, IGazeableObject
         return true;
     }
 
-    IEnumerator releaseMessageBottle() {
-        yield return new WaitForSeconds(0.2f);
+    void releaseMessageBottle() {
         GameObject newDrop = DropletPool.instance.getBottleDroplet();
-        GameObject newDrop2 = DropletPool.instance.getDroplet();
 
         float randRange = 0.01f;
-        
         float randomx = Random.Range(-randRange,randRange);
         newDrop.transform.position = new Vector2(waterSource.x + randomx, waterSource.y);
         newDrop.SetActive(true);
         newDrop.GetComponent<Rigidbody2D>().velocity = getExitVelocity();
-
-        randomx = Random.Range(-randRange,randRange);
-        newDrop2.transform.position = new Vector2(waterSource.x + randomx, waterSource.y);
-        newDrop2.SetActive(true);
-        newDrop2.GetComponent<Rigidbody2D>().velocity = getExitVelocity();
+        droppingBottle = false;
     }
     
     protected abstract void resetSpawnLocation(string newLocation);
@@ -124,7 +120,7 @@ public abstract class Pipe : MonoBehaviour, IGazeableObject
         newDrop.GetComponent<Rigidbody2D>().velocity = getExitVelocity();
 
         drops-= 1;
-        if (drops <= 0)
+        if (drops <= 0 && !droppingBottle)
         {
             waterRunning = false;
             CancelInvoke();

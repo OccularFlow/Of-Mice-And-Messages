@@ -19,7 +19,8 @@ public abstract class GazeAware2d : MonoBehaviour
     bool objectBeingGazed = false;
     bool startedGaze = false;
     float timer = 0f;
-    protected float gazeTime;
+    protected delegate float GazeTimeDelegate();
+    protected GazeTimeDelegate gazeTime;
     Camera mainCamera;
 
     protected abstract void gazeAction();
@@ -40,7 +41,7 @@ public abstract class GazeAware2d : MonoBehaviour
         timer += Time.deltaTime;
         if (objectCollider.bounds.IntersectRay(mainCamera.ScreenPointToRay(TobiiAPI.GetGazePoint().Screen))) {
             startedGaze = true;
-            if (timer > gazeTime && !objectBeingGazed) {
+            if (timer > gazeTime() && !objectBeingGazed) {
                 objectBeingGazed = true;
                 gazeAction();
             } else if (!objectBeingGazed){

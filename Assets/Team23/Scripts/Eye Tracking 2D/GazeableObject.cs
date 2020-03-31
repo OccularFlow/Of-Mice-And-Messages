@@ -12,15 +12,8 @@ public class GazeableObject : GazeAware2d
     protected override void Awake() {
         base.Awake();
         gazeableObject = GetComponent<IGazeableObject>();
-    }
-    void Start() {
-        gazeTime = gazeableObject.getGazeTime();
-    }
-
-    void OnEnable() {
-        gazeTime = gazeableObject.getGazeTime();
-    }
-    
+        gazeTime = gazeableObject.getGazeTime;
+    }    
     protected override void gazeAction() {
         gazeableObject.gazeAction();
     }

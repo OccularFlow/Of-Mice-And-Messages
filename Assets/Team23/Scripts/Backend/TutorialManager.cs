@@ -11,6 +11,7 @@ public class TutorialManager : DockLevelGameManager
 	private GridBlock first_grid;
 	private float rotation;
 	GridBlock[] gridBlocks;
+	Bin binButton;
 
 	protected override void Start() {
 		base.Start();
@@ -19,6 +20,14 @@ public class TutorialManager : DockLevelGameManager
 		gridBlocks = FindObjectsOfType<GridBlock>();
 		foreach (GridBlock gridBlock in gridBlocks) {
 			gridBlock.deactivate();
+		}
+		binButton = FindObjectOfType<Bin>();
+	}
+
+	public override void pipeSelected(Pipe pipe) {
+		base.pipeSelected(pipe);
+		if (popUpIndex == 10) {
+			binButton.deactivate();
 		}
 	}
 
